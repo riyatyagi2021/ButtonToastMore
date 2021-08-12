@@ -15,8 +15,6 @@
             android:id="@+id/grid1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:columnWidth="90dp"
-
             android:columnCount="2"
             android:paddingVertical="10dp"
             android:numColumns="auto_fit"
@@ -46,7 +44,7 @@
                 android:layout_height="150dp"
                 android:src="@drawable/img4" />
 
-            <androidx.appcompat.widget.AppCompatImageView
+        <!--    <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/image5"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -57,7 +55,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/img6" />
-
+-->
         </GridLayout>
 
 
@@ -75,15 +73,23 @@ android:imeOptions="actionDone"
     android:id="@+id/button1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Click here"
+    android:text="Click to see Msg"
     android:layout_gravity="center"
     android:layout_marginTop="20dp"/>
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Custom Toast layout"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Box"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
 
